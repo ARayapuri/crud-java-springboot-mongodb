@@ -1,0 +1,6 @@
+com\customers\dao\CustomerDao.class
+com\customers\main\CustomerWsApplication.class
+com\customers\daoimpl\CustomerDaoImpl.class
+com\customers\service\CustomerService.class
+com\customers\controllers\CustomerController.class
+com\customers\serviceimpl\CustomerServiceImpl.class

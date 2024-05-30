@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.customerswsmanagement</groupId>
+	<artifactId>customersws</artifactId>
+	<version>1.0</version>
+	<packaging>war</packaging>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<!--<spring.boot.version>2.6.3</spring.boot.version>-->
+		<spring.boot.version>2.7.0</spring.boot.version> <!-- Use the latest
+			version available -->
+
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.customerspojosmanagement</groupId>
+			<artifactId>customerspojos</artifactId>
+			<version>1.0</version>
+		</dependency>
+		
+		<!-- Spring Boot Starter for Web -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>${spring.boot.version}</version>
+		</dependency>
+
+	</dependencies>
+
+</project>
